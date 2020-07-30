@@ -1,0 +1,21 @@
+.Colours-container{
+  text-align: center;
+  display: flex;
+}
+.generate-color{
+  background: #eee;
+  width: 100vw;
+  height: 5vh;
+  font-weight: bolder;
+  font-size: 18px;
+  
+}
+
+
+.generate-color:active {
+  transform: scale(0.98);
+}
+
+.generate-color:focus {
+  outline: none;
+}
