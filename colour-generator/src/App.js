@@ -45,7 +45,7 @@ class App extends React.Component {
       <div>
         <div className="Colours-container">
           <div className="animate__animated animate__backInDown">
-            <Color color={this.state.color1} />
+            <Color color={this.state.color1}/>
           </div>
           <div className="animate__animated animate__backInDown">
             <Color color={this.state.color2} />

@@ -1,6 +1,6 @@
 .Colours-container{
-  text-align: center;
   display: flex;
+  text-align: center;
 }
 .generate-color{
   background: #eee;
@@ -11,11 +11,19 @@
   
 }
 
-
 .generate-color:active {
   transform: scale(0.98);
 }
 
 .generate-color:focus {
   outline: none;
+}
+
+@media (max-width: 500px){
+  .Colours-container{
+    display: block;
+  }
+}
+.black{
+  background: black;
 }
