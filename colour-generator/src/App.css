@@ -1,14 +1,18 @@
-.Colours-container{
+.Colours-container {
   display: flex;
   text-align: center;
 }
-.generate-color{
+
+.animate__animated {
+  height: 95vh;
+  width: 20vw;
+}
+.generate-color {
   background: #eee;
   width: 100vw;
   height: 5vh;
   font-weight: bolder;
   font-size: 18px;
-  
 }
 
 .generate-color:active {
@@ -19,11 +23,16 @@
   outline: none;
 }
 
-@media (max-width: 500px){
-  .Colours-container{
-    display: block;
+@media (max-width: 500px) {
+  .Colours-container {
+    /* display: block; */
+    flex-direction: column;
+  }
+  .animate__animated {
+    height: 19vh;
+    width: 100vw;
   }
 }
-.black{
+.black {
   background: black;
 }
