@@ -13,3 +13,12 @@
 .fa{
   cursor: pointer;
 }
+.color-hex{
+  display: none;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1.2px solid black;
+  background: #eee;
+  color: black;
+}
